@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/assignsubmission_onlinepoodll",
+  "description": "Poodll Assignment Submission - audio and video recording — Composer/Packagist mirror of the Moodle plugin assignsubmission_onlinepoodll, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-assignsubmission",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/assignsubmission_onlinepoodll",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "3.5.* || 3.6.* || 3.7.* || 3.8.* || 3.9.* || 3.10.* || 3.11.* || 4.0.* || 4.1.* || 4.2.* || 4.3.* || 4.4.* || 4.5.* || 5.0.* || 5.1.* || 5.2.*"
+  },
+  "extra": {
+    "installer-name": "onlinepoodll",
+    "moodle-composer": {
+      "component": "assignsubmission_onlinepoodll"
+    }
+  }
+}
